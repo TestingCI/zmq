@@ -15,10 +15,3 @@ before_script:
 
 script: phpunit --coverage-text
 
-notifications:
-     email:
-         recipients:
-             - vidya@shippable.com
-             - exampletwo@org.com
-         on_success: change
-         on_failure: always
